@@ -1,0 +1,256 @@
+.centercontainer {
+    background-color: #161A1D;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+
+}
+
+body {
+    background-color: #161A1D;
+    color: gray;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 4rem;
+    align-items: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+button {
+    color: gray;
+    background-color: #660708;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+label {
+    color: gray;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+}
+
+p {
+
+    color: gray;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium';
+    margin: 2rem;
+    padding: 2rem;
+}
+
+h1 {
+    color: gray;
+    align-items: center;
+
+    font-family: 'Franklin Gothic Medium';
+}
+
+.navigator {
+    background-color: black;
+    box-sizing: border-box;
+    font-size: xx-large;
+    align-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headzeug {
+    align-items: center;
+}
+
+.navigator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.navigator a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+
+}
+
+.navigator li:hover {
+    background-color: #660708;
+}
+
+.navigator li:active {
+    background-color: #660708;
+}
+
+.centercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.centercontainer h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.centercontainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.centercontainer label {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.centercontainer input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 30px;
+}
+
+.centercontainer button {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.centercontainer p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.tableContainerStyle {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableRectangleStyle {
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid #000000;
+    background: #660708;
+    position: absolute;
+    left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableTextareaStyle {
+    width: 75%;
+    height: 25%;
+    padding: 10px;
+    border: none;
+    resize: none;
+    font-family: inherit;
+}
+
+.tableButtonStyle {
+    height: 40px;
+    width: 125px;
+    background: #d3d3d3;
+    border: 2px solid #000000;
+    margin: 10px;
+}
+
+.tableBottomButtonsContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.tableTopRightContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.tableLeftButtonsContainer {
+    position: absolute;
+    top: 22%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelStyle {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.selectStyle {
+    width: 75px;
+    margin: 5px;
+}
+
+.inputStyle {
+    width: 75px;
+    margin: 5px;
+}
+
+.checkboxStyle {
+    margin: 5px;
+}
+
+.tableLeftButtonStyle {
+    height: 40px;
+    width: 150px;
+    background: #d3d3d3;
+    border: 2px solid #000000;
+    margin: 5px 0;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presetsBottomRightContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.presetsBottomLeftContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
