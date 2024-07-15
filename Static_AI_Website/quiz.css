@@ -1,0 +1,23 @@
+  .quizbutton{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+   }
+   h3{
+    font: 10mm;
+   }
+   .quiz{
+    
+        text-align: center;
+        font-size: 6mm;
+      }
+      .skipButton{
+        text-align: end;
+      }
+      .hidden{
+        
+        visibility: hidden;
+}
+
+

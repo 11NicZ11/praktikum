@@ -1,0 +1,42 @@
+body{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.content{ 
+    list-style-type: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+fieldset{
+    margin: 1%;
+    margin-left: auto;
+margin-right: auto; width: 30cm;
+}
+
+h1{
+    
+    text-align: center;
+}
+ 
+h3{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+ul{
+    list-style-type: none; 
+    margin: 1%;
+    
+}
+button{
+    margin: 1%;
+    width: 30mm;
+    height: 15mm;
+    border-radius: 50%;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}

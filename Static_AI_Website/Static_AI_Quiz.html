@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>Quiz</title>
+<link rel="stylesheet" href="table_of_conten.css">
+<link rel="stylesheet" href="quiz.css">
+<script src="Static_AI_Website.js"></script>
+</head>
+<body>
+    <h1>Quiz for AI</h1>
+    <fieldset class="content" > <!--navigierbare content liste draus machen-->
+        <h1>Content</h1>
+        <ol role="list"; style="list-style-type: none; margin: 1%;">
+            <li>
+                <a href="Static_AI_Homepage.html">Homepage</a>
+            </li>
+            <li>
+                <a href="Static_AI_Benefit.html">Benefits of AI</a>
+            </li>
+            <li>
+                <a href="Static_AI_Risk.html">Risks of AI</a>   
+            </li>
+                <li>
+                    <a href="Static_AI_Quiz.html">Quiz</a>
+                </li>
+                <div style="text-align: end;">
+                    <button onclick="darkMode()">Dark Mode</button>
+                </div>
+        </ol>
+  
+    </fieldset>
+    
+    <!-- if you know how to use ai it can be a major improve in your life -->
+    <fieldset class="quiz" id="hidden">
+
+        <h2 id="answer" >Yes or No Question</h2>
+        <p style="font-size: 7mm; text-align: center;">"Can AI completely eliminate bias in decision-making processes?"</p>
+        <!--anwser is no-->
+        <div class="quizbutton">
+            <button type="button" onclick="skip()">yes</button >
+            <button type="button" onclick="skip()">Skip</button>
+            <button type="button" onclick="correct()" >no</button>
+        </div>
+    </fieldset>
+    <fieldset style="visibility: hidden;" id="visible">
+    <h2>multiple choice </h2>
+    <h3>Which of the following is true about deep learning?</h3><!--question-->
+    <b><div class="quiz" >
+        <p>a) Deep learning is a type of AI that is limited to shallow neural networks.</p>
+        <p>b) Deep learning relies solely on labeled data and does not require unlabeled data.</p>
+        <p>c) Deep learning can automatically learn hierarchical representations of data.</p> <!--anwser-->
+        <p>d) Deep learning does not require large computational resources.</p>
+    </div></b>
+    <div id="hidden1" class="quizbutton" >
+        <button type="button" onclick="multipleChoiceWrong1()">a</button>
+        <button type="button" onclick="multipleChoiceWrong1()">b</button>
+        <button type="button" onclick="multipleChoiceTrue1()">c</button>
+        <button type="button" onclick="multipleChoiceWrong1()">d</button>
+    </div>
+  <div id="visible1" style="visibility: hidden;">  <h3>What is the primary goal of natural language processing (NLP)?</h3><!--question-->
+   <b> <div class="quiz">
+        <p>a) To develop machines that can understand and generate human language.</p><!--anwser-->
+        <p>b) To create human-like robots with advanced cognitive abilities.</p>
+        <p>c) To simulate human emotions and consciousness in machines.</p>
+        <p>d) To enable machines to perform complex mathematical computations.</p>
+    </div></b>
+    <div id="hidden2" class="quizbutton">
+        <button type="button" onclick="multipleChoiceTrue2()">a</button>
+        <button type="button" onclick="multipleChoiceWrong2()">b</button>
+        <button type="button" onclick="multipleChoiceWrong2()">c</button>
+        <button type="button" onclick="multipleChoiceWrong2()">d</button>
+    </div></div>
+   <div id="visible2" style="visibility: hidden;"> <h3>Which of the following statements accurately describes AI ethics?</h3><!--question-->
+   <b> <div class="quiz">
+        
+        <p>a) AI systems are inherently unbiased and do not require ethical considerations.</p>
+        <p>b) AI ethics is a non-essential aspect and can be disregarded in AI development.</p>
+        <p>c) AI ethics involves addressing concerns like bias, privacy, and transparency.</p><!--anwser-->
+        <p>d) AI systems have no impact on societal and human values.</p>
+    </div></b>
+    <div class="quizbutton">
+        <button type="button" onclick="multipleChoiceWrong3()">a</button>
+        <button type="button" onclick="multipleChoiceWrong3()">b</button>
+        <button type="button" onclick="multipleChoiceTrue3()">c</button>
+        <button type="button" onclick="multipleChoiceWrong3()">d</button>
+    </div></div>
+   <div class="skipButton"> <button onclick="skip2()">skip</button></div>
+    </fieldset>
+<fieldset id="visible3" style="visibility: hidden;">
+ if else statement versuchen
+    <h2>text question</h2>
+    <h3>What are some potential risks associated with AI adoption?</h3>
+    <label for="user"></label> <!--question-->
+    <input type="text" name="user" id="user">
+
+    <div class="skipButton"><button onclick="submit()">submit</button> <button onclick="skip3()">skip</button>
+    </div>
+</fieldset>
+<fieldset id="visible4" style="visibility: hidden;">
+<h3>Solution 1</h3>
+<p>Question: Can AI completely eliminate bias in decision-making processes?</p>
+<p>Answer: No, while AI can help mitigate bias to some extent, complete elimination of bias is challenging due to the potential biases in the data used to train AI algorithms and the complexity of human biases that can be embedded in decision-making processes. Therefore, it is important to develop robust strategies and approaches to address bias in AI systems and ensure responsible and fair decision-making</p>
+<h3>Solution Multiple choice 1</h3>
+<p>Question: Which of the following is true about deep learning?</p>
+<p>Answer: Deep learning can automatically learn hierarchical representations of data.</p>
+<h3>Solution Multiple choice 2</h3>
+<p>Question: What is the primary goal of natural language processing (NLP)?</p>
+<p>Answer: To develop machines that can understand and generate human language.</p>
+<h3>Solution Multiple choice 3</h3>
+<p>Question: Which of the following statements accurately describes AI ethics?</p>
+<p>Answer: AI ethics involves addressing concerns like bias, privacy, and transparency.</p>
+<p id="score"></p>
+</fieldset>
+</body>
+
+
+
+
+</html>
